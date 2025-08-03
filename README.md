@@ -53,20 +53,17 @@ src/
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/yourusername/multi-theme-switcher.git
+git clone https://github.com/PravallikaDeveloper/switching-theme
 
-# 2. Navigate to the project folder
-cd multi-theme-switcher
-
-# 3. Install dependencies
+# 2. Install dependencies
 npm install
 
-# 4. Start the development server
+# 3. Start the development server
 npm run dev
 # or
 npm start
 
-# 5. Open in browser
+# 4. Open in browser
 http://localhost:3000
 
 
@@ -74,4 +71,6 @@ http://localhost:3000
 
 npm run build
 npm run preview
+
+Deployed URL: https://switching-theme.vercel.app/
 
