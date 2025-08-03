@@ -1,0 +1,29 @@
+/* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* index.css */
+.theme1 {
+  @apply bg-white text-gray-800 font-sans transition-all duration-500;
+}
+
+.theme2 {
+  @apply bg-gray-900 text-white font-serif transition-all duration-500;
+}
+
+.theme3 {
+  @apply bg-pink-100 text-purple-800 font-pacifico transition-all duration-500;
+}
+
+/* Add font-pacifico */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.font-pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+
+.header {
+  background-color: red;
+}

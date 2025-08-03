@@ -1,0 +1,48 @@
+.app-container {
+  min-height: 100vh;
+  /* background, font, font-weight, and color will be set inline because they're dynamic */
+}
+
+.sidebar-layout {
+  display: flex;
+  padding: 1rem;
+  padding-top: 3rem;
+}
+
+.sidebar {
+  width: 220px;
+  color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding-top: 10rem;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+}
+
+.sidebar ul li {
+  padding: 5px;
+}
+
+.sidebar ul li a {
+  color: #fff;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.sidebar ul li a:hover {
+  text-decoration: underline;
+}
+
+.main-content {
+  flex: 1;
+  padding-left: 2rem;
+}
+
+.default-layout {
+  padding: 3rem;
+}
